@@ -1,8 +1,8 @@
 /* variables */
 :root {
-  --main-grey: #626262;
+  --dark-grey: #626262;
   --white: #ffffff;
-  --header-link-grey: #7d7d7d;
+  --grey: #7d7d7d;
   --link-grey: #b4ad9e;
   --blue: #03a9f4;
 }
