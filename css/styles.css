@@ -3,6 +3,87 @@
   --dark-grey: #626262;
   --white: #ffffff;
   --grey: #7d7d7d;
-  --link-grey: #b4ad9e;
+  --light-grey: #b4ad9e;
   --blue: #03a9f4;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-link:hover {
+  color: var(--blue);
+}
+
+.main {
+}
+
+.hero {
+}
+
+.hero-title {
+}
+
+.hero-card {
+}
+
+.hero-img {
+}
+
+.hero-link {
+  color: var(--light-grey);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hero-subtitle {
+  color: var(--dark-grey);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero-desc {
+  color: var(--dark-grey);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero-button {
+  color: var(--dark-grey);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20.5px 48.5px;
+  background-color: var(--white);
+  border: solid 1px var(--dark-grey);
 }
