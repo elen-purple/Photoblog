@@ -11,25 +11,34 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-a {
-  text-decoration-line: none;
+.container {
+  width: 936px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: red dashed 3px; */
 }
 
-ul {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
+*::selection {
+  background-color: var(--light-grey);
+  color: var(--white);
 }
 
 .header {
+  padding-top: 72px;
+  padding-bottom: 46px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
 }
 
 .header-nav {
 }
 
 .header-list {
+  display: flex;
+  gap: 100px;
 }
 
 .header-item {
@@ -49,15 +58,35 @@ button {
 }
 
 .hero {
+  padding-top: 46px;
+  padding-bottom: 66px;
 }
 
 .hero-title {
+}
+
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.hero-item {
+  width: 420px;
+  margin-bottom: 130px;
+}
+
+.hero-item:nth-child(5),
+.hero-item:nth-child(6) {
+  margin-bottom: 0;
 }
 
 .hero-card {
 }
 
 .hero-img {
+  margin-bottom: 62px;
 }
 
 .hero-link {
@@ -65,12 +94,15 @@ button {
   font-family: Ubuntu;
   font-size: 14px;
   font-weight: 300;
+  display: block;
 }
 
 .hero-subtitle {
   color: var(--dark-grey);
   font-size: 30px;
   font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 40px;
 }
 
 .hero-desc {
@@ -83,7 +115,12 @@ button {
   color: var(--dark-grey);
   font-size: 14px;
   font-weight: 400;
-  padding: 20.5px 48.5px;
+  padding: 20.5px;
   background-color: var(--white);
   border: solid 1px var(--dark-grey);
+  display: block;
+  margin: 0 auto;
+  width: 165px;
+  text-align: center;
+  font-family: Playfair Display;
 }

@@ -10,141 +10,160 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="">LIFESTYLE</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="">PHOTODIARY</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="">MUSIC</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="">TRAVEL</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="">LIFESTYLE</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">PHOTODIARY</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">MUSIC</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">TRAVEL</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <!-- hero section -->
       <section class="hero">
-        <h1 class="hero-title" hidden>Photoblog</h1>
-        <!-- card 1 -->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-1.jpg"
-            alt="img1"
-          />
-          <a class="hero-link" href="">LIFESTYLE</a>
-          <h2 class="hero-subtitle">More than just a music festival</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- card 2 -->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-2.jpg"
-            alt="img2"
-          />
-          <a class="hero-link" href="">LIFESTYLE</a>
-          <h2 class="hero-subtitle">Life tastes better with coffee</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- card 3 -->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-3.jpg"
-            alt="img3"
-          />
-          <a class="hero-link" href="">PHOTODAIRY</a>
-          <h2 class="hero-subtitle">American dream</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- card 4 -->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-4.jpg"
-            alt="img4"
-          />
-          <a class="hero-link" href="">PHOTODAIRY</a>
-          <h2 class="hero-subtitle">A day exploring the Alps</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- card 5-->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-5.jpg"
-            alt="img5"
-          />
-          <a class="hero-link" href="">LIFESTYLE</a>
-          <h2 class="hero-subtitle">Top 10 song for running</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- card 6 -->
-        <article class="hero-card">
-          <img
-            class="hero-img"
-            width="420"
-            height="280"
-            src="./img/img-6.jpg"
-            alt="img6"
-          />
-          <a class="hero-link" href="">LIFESTYLE</a>
-          <h2 class="hero-subtitle">Cold winter days</h2>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </article>
-        <!-- button -->
-        <button class="hero-button" type="button">Load more</button>
+        <div class="container">
+          <h1 class="hero-title" hidden>Photoblog</h1>
+          <ul class="hero-list">
+            <!-- card 1 -->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-1.jpg"
+                  alt="img1"
+                />
+                <a class="hero-link" href="">LIFESTYLE</a>
+                <h2 class="hero-subtitle">More than just a music festival</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <!-- card 2 -->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-2.jpg"
+                  alt="img2"
+                />
+                <a class="hero-link" href="">LIFESTYLE</a>
+                <h2 class="hero-subtitle">Life tastes better with coffee</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <!-- card 3 -->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-3.jpg"
+                  alt="img3"
+                />
+                <a class="hero-link" href="">PHOTODAIRY</a>
+                <h2 class="hero-subtitle">American dream</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <!-- card 4 -->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-4.jpg"
+                  alt="img4"
+                />
+                <a class="hero-link" href="">PHOTODAIRY</a>
+                <h2 class="hero-subtitle">A day exploring the Alps</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <!-- card 5-->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-5.jpg"
+                  alt="img5"
+                />
+                <a class="hero-link" href="">LIFESTYLE</a>
+                <h2 class="hero-subtitle">Top 10 song for running</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <!-- card 6 -->
+            <li class="hero-item">
+              <article class="hero-card">
+                <img
+                  class="hero-img"
+                  width="420"
+                  height="280"
+                  src="./img/img-6.jpg"
+                  alt="img6"
+                />
+                <a class="hero-link" href="">LIFESTYLE</a>
+                <h2 class="hero-subtitle">Cold winter days</h2>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+          </ul>
+          <!-- button -->
+          <button class="hero-button" type="button">Load more</button>
+        </div>
       </section>
     </main>
   </body>
